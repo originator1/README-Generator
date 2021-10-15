@@ -5,27 +5,27 @@
   
   ---
   James Garinger  
-  Contact Me: jkggaringer@gmail.com  
+  Contact Me: jkgarringer@gmail.com  
   Contributors: none  
   Version: 1.0    
-  Testing with: Jetty
+  Testing with: none
 
   
   ## The Repository  
   ---
-  This project creates a readme generator using node.js and js
+  In this project i create a README generator using node.js and inquirer
   
   Table of Contents:
-  1. Item One   
+   1. Item One   
   
-  ![project snapshot](imagelinkhere)  
+  ![project snapshot](image link here)  
   
   ### Installation:
-  To install just simply do this  
+  none  
   ### Future Development Ideas:
-  -Improve quality of readme structure  
+  improve readme professional structure  
   ### How to leave your feedback:
   email me!   
   ### Sources used to create project:
-  github    
+  sources here    
   

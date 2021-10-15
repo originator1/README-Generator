@@ -14,8 +14,8 @@ const questions = [
     {
         type: 'list',
         message:'Select a prefered license:',
-        name:'licenses',
-        choices:['MIT', 'Apache 2.0', 'GNU V3.0', 'Mozilla 2.0'],
+        name:'license',
+        choices:['MIT', 'Apache', 'GNU', 'Mozilla'],
     },
     {
         type: 'input',
@@ -99,7 +99,7 @@ function writeToFile(filename, data) {
 function init() {
     inquirer.prompt(questions)
     .then(function(data) {
-        writeToFile('READMEDEMO.md', generateMarkdown(data));
+       writeToFile('READMEDEMO.md', generateMarkdown(data));
     })
     
 };
@@ -114,12 +114,3 @@ init();
 
 
 
-// const init = () => {
-//     promptUser()
-//     // Use writeFileSync method to use promises instead of a callback function
-//       .then((answers) => fs.writeFileSync('index.html', generateHTML(answers)))
-//       .then(() => console.log('Successfully wrote to index.html'))
-//       .catch((err) => console.error(err));
-//   };
-  
-//   init();
